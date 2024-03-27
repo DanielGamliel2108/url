@@ -1,0 +1,42 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+  header {
+    background-color: rgb(248, 4, 4); /* צבע רקע כחול */
+    padding: 10px; /* רווח מסביב */
+    text-align: center; /* מירוצי הטקסט במרכז */
+  }
+
+  p {
+    color: rgb(0, 0, 0); 
+    margin: 0; /* מסירת רווחים מימין ומשמאל */
+    padding: 0; /* מסירת רווחים מימין ומשמאל */
+    font-size: 18px; /* גודל הטקסט */
+    animation: moveText 2s infinite alternate; /* אנימציה שמזיזה את הטקסט */
+  }
+
+  @keyframes moveText {
+    from {
+      transform: translateX(-10px); /* התחלה - מזיז את הטקסט 10 פיקסלים שמאלה */
+    }
+    to {
+      transform: translateX(10px); /* סיום - מזיז את הטקסט 10 פיקסלים ימינה */
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>URL SHORTEN LINKS</h1>
+  <p>Your site for shortening links</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>

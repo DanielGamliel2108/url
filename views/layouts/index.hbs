@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>URL Shortener</title>
+</head>
+<style>
+/* CSS for header, navbar, and footer */
+header, footer {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #000000;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #000000;
+}
+</style>
+<body>
+
+  {{>navbar}}
+{{{body}}}
+{{>footer}}
+</body>
+</html>
